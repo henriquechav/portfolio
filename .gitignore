@@ -1,2 +1,3 @@
 public/
 .prettierignore
+.hugo_build.lock
