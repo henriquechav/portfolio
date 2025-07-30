@@ -1,6 +1,7 @@
 ---
 title: "Blog"
+ShowBreadCrumbs: false
 ShowRssButtonInSectionTermList: false
 ---
 
-[Arquivo](/arquivo) / [Buscar](/buscar)
+[🗃️ Arquivo](/arquivo) / [🔎 Buscar](/buscar)

@@ -68,7 +68,7 @@ params:
     iconHeight: 35
 
   homeInfoParams:
-    Title: "Olá, bem-vindo(a) ao meu blog \U0001F44B"
+    Title: "Olá, bem-vindo(a) ao meu portfólio \U0001F44B"
     Content: Aqui compartilho meus aprendizados na vasta área da computação.
 
   socialIcons:
