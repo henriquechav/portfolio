@@ -13,7 +13,7 @@ minify:
   minifyOutput: true
 
 params:
-  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  env: production
   title: Henrique Chaves - Portfólio
   description: "Portfólio de Henrique Chaves, onde compartilho projetos de software, estudos em dados e reflexões sobre o aprendizado em tecnologia."
   keywords:
@@ -40,7 +40,7 @@ params:
   author: Henrique Chaves Lopes
   images: ["images/banner.png"]
   DateFormat: "02/01/2006"
-  defaultTheme: auto # dark, light
+  defaultTheme: auto
   disableThemeToggle: false
 
   ShowReadingTime: false
@@ -48,7 +48,7 @@ params:
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
   ShowCodeCopyButtons: false
-  ShowWordCount: true
+  ShowWordCount: false
   ShowRssButtonInSectionTermList: true
   UseHugoToc: true
   disableSpecial1stPost: false
@@ -60,23 +60,16 @@ params:
   tocopen: false
 
   assets:
-    # disableHLJS: true # to disable highlight.js
-    # disableFingerprinting: true
-    favicon: "programmericon.svg"
-    # favicon16x16: "programmericon.svg"
-    # favicon32x32: "programmericon.svg"
-    # apple_touch_icon: "programmericon.svg"
-    # safari_pinned_tab: "programmericon.svg"
+    favicon: "favicon.svg"
 
   label:
     text: "Henrique Chaves - Portfólio"
     icon: /apple-touch-icon.png
     iconHeight: 35
 
-  # home-info mode
   homeInfoParams:
-    Title: "Olá \U0001F44B"
-    Content: Bem-vindo(a) ao meu blog
+    Title: "Olá, bem-vindo(a) ao meu blog \U0001F44B"
+    Content: Aqui compartilho meus aprendizados na vasta área da computação.
 
   socialIcons:
     - name: github
@@ -85,17 +78,10 @@ params:
       url: "https://linkedin.com/in/henriquechav"
 
   cover:
-    hidden: true # hide everywhere but not in structured data
-    hiddenInList: true # hide on list pages and home
-    hiddenInSingle: true # hide on single page
+    hidden: true 
+    hiddenInList: true 
+    hiddenInSingle: true # 
 
-  # editPost:
-    # URL: "https://github.com/henriquechav/portfolio/content"
-    # Text: "Sugira Mudanças" # edit text
-    # appendFilePath: true # to append file path to Edit link
-
-  # for search
-  # https://fusejs.io/api/options.html
   fuseOpts:
     isCaseSensitive: false
     shouldSort: true
@@ -103,7 +89,7 @@ params:
     distance: 1000
     threshold: 0.4
     minMatchCharLength: 0
-    limit: 10 # refer: https://www.fusejs.io/api/methods.html#search
+    limit: 10
     keys: ["title", "permalink", "summary", "content"]
 menu:
   main:
@@ -119,13 +105,19 @@ menu:
       name: Blog
       url: /blog/
       weight: 30
-# Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
+
 pygmentsUseClasses: true
 markup:
   highlight:
     noClasses: false
-    # anchorLineNos: true
-    # codeFences: true
-    # guessSyntax: true
-    # lineNos: true
-    # style: monokai
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
