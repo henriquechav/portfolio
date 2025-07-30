@@ -39,7 +39,7 @@ params:
     ]
   author: Henrique Chaves Lopes
   images: ["images/banner.png"]
-  DateFormat: "02 Jan 2006"
+  DateFormat: "02/01/2006"
   defaultTheme: auto # dark, light
   disableThemeToggle: false
 
@@ -63,10 +63,10 @@ params:
     # disableHLJS: true # to disable highlight.js
     # disableFingerprinting: true
     favicon: "programmericon.svg"
-    favicon16x16: "programmericon.svg"
-    favicon32x32: "programmericon.svg"
-    apple_touch_icon: "programmericon.svg"
-    safari_pinned_tab: "programmericon.svg"
+    # favicon16x16: "programmericon.svg"
+    # favicon32x32: "programmericon.svg"
+    # apple_touch_icon: "programmericon.svg"
+    # safari_pinned_tab: "programmericon.svg"
 
   label:
     text: "Henrique Chaves - Portfólio"
@@ -89,10 +89,10 @@ params:
     hiddenInList: true # hide on list pages and home
     hiddenInSingle: true # hide on single page
 
-  editPost:
-    URL: "https://github.com/henriquechav/portfolio/content"
-    Text: "Sugira Mudanças" # edit text
-    appendFilePath: true # to append file path to Edit link
+  # editPost:
+    # URL: "https://github.com/henriquechav/portfolio/content"
+    # Text: "Sugira Mudanças" # edit text
+    # appendFilePath: true # to append file path to Edit link
 
   # for search
   # https://fusejs.io/api/options.html
