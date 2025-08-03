@@ -63,13 +63,18 @@ params:
     favicon: "favicon.svg"
 
   label:
-    text: "Henrique Chaves - Portfólio"
+    text: "Henrique C. / Portfólio"
     icon: /apple-touch-icon.png
     iconHeight: 35
 
-  homeInfoParams:
-    Title: "Olá, bem-vindo(a) ao meu portfólio \U0001F44B"
-    Content: Aqui compartilho meus aprendizados na vasta área da computação.
+  profileMode:
+    enabled: true
+    title: "Henrique C. Lopes"
+    subtitle: "Estudante de Ciência da Computação"
+    imageUrl: "images/perfil.png"
+    imageTitle: "<title of image as alt>" # optional
+    imageWidth: 240
+    imageHeight: 240  
 
   socialIcons:
     - name: github
