@@ -1,6 +1,6 @@
 baseURL: https://henriquechav.github.io/
 languageCode: pt-br
-title: Henrique Chaves - Portfólio
+title: Henrique Chaves Lopes - Portfólio
 theme: PaperMod
 
 enableRobotsTXT: true
@@ -14,7 +14,7 @@ minify:
 
 params:
   env: production
-  title: Henrique Chaves - Portfólio
+  title: Henrique Chaves Lopes - Portfólio
   description: "Portfólio de Henrique Chaves, onde compartilho projetos de software, estudos em dados e reflexões sobre o aprendizado em tecnologia."
   keywords:
     [
@@ -81,6 +81,8 @@ params:
       url: "https://github.com/henriquechav/"
     - name: linkedin
       url: "https://linkedin.com/in/henriquechav"
+    - name: email
+      url: "mailto:henriquelopes0611@gmail.com"
 
   cover:
     hidden: true 
