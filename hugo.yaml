@@ -60,7 +60,11 @@ params:
   tocopen: false
 
   assets:
-    favicon: "favicon.svg"
+    favicon: "favicon.ico"
+    favicon16x16: "favicon-16x16.png" 
+    favicon32x32: "favicon-32x32.png"
+    apple_touch_icon: "apple-touch-icon.png"
+    safari_pinned_tab: "safari-pinned-tab.svg"
 
   label:
     text: "Henrique C. / Portfólio"
@@ -72,7 +76,7 @@ params:
     title: "Henrique C. Lopes"
     subtitle: "Estudante de Ciência da Computação"
     imageUrl: "images/perfil.png"
-    imageTitle: "<title of image as alt>" # optional
+    imageTitle: "Foto de Henrique Chaves Lopes"
     imageWidth: 240
     imageHeight: 240  
 
