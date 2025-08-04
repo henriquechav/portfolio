@@ -3,7 +3,7 @@ title: "Sobre Meu Portfólio"
 author: "Henrique C. Lopes"
 date: 2025-07-30
 tags: ["projetos", "escrita"]
-showToc: true
+showToc: false
 TocOpen: false
 draft: true
 hidemeta: false
@@ -19,17 +19,19 @@ ShowBreadCrumbs: true
 ShowPostNavLinks: true
 ShowWordCount: false
 ShowRssButtonInSectionTermList: true
-UseHugoToc: true
+UseHugoToc: false
 ---
 
-contextualização e objetivos do post
+<!-- contextualização e objetivos do post -->
 
-pesquisa, objetivos e tecnologias
+Resolvi começar este blog técnico com um post sobre a própria criação do blog/portfólio --- afinal, que tema seria mais adequado? Descreverei, a seguir, os porquês de tê-lo criado, a trajetória que percorri e
 
-desenvolvimento (ferramentas e processos) / design e customização
+<!-- pesquisa, objetivos e tecnologias -->
 
-desafios e lições
+<!-- desenvolvimento (ferramentas e processos) / design e customização -->
 
-resultado e melhorias
+<!-- desafios e lições -->
 
-referências
+<!-- resultado e melhorias -->
+
+<!-- referências -->
