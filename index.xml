@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Henrique Chaves Lopes - Portfólio</title>
+    <link>https://henriquechav.github.io/</link>
+    <description>Recent content on Henrique Chaves Lopes - Portfólio</description>
+    <image>
+      <title>Henrique Chaves Lopes - Portfólio</title>
+      <url>https://henriquechav.github.io/images/banner.png</url>
+      <link>https://henriquechav.github.io/images/banner.png</link>
+    </image>
+    <generator>Hugo -- 0.148.2</generator>
+    <language>pt-br</language>
+    <lastBuildDate>Mon, 01 Jan 0001 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://henriquechav.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Projetos</title>
+      <link>https://henriquechav.github.io/projetos/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://henriquechav.github.io/projetos/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Meu Portfólio&lt;/strong&gt;: &lt;a href=&#34;https://henriquechav.github.io/blog/sobre-meu-portfolio&#34;&gt;descrição&lt;/a&gt; / &lt;a href=&#34;https://github.com/henriquechav/portfolio&#34; target=&#34;_blank&#34;&gt;repositório&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Sobre mim</title>
+      <link>https://henriquechav.github.io/sobre/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://henriquechav.github.io/sobre/</guid>
+      <description>&lt;p&gt;&lt;em&gt;Olá, caro visitante!&lt;/em&gt; 👋&lt;/p&gt;
+&lt;p&gt;Sou um estudante de &lt;strong&gt;Ciência da Computação na Universidade Federal do ABC (UFABC)&lt;/strong&gt;. Atualmente estou em busca de uma &lt;strong&gt;oportunidade de estágio&lt;/strong&gt; para demonstrar meu potencial.&lt;/p&gt;
+&lt;p&gt;Gosto dos computadores desde pequeno e sempre quis saber como eles funcionavam por debaixo dos panos, um sonho que tenho realizado a cada dia no meu curso. Como parte deste aprendizado, procuro desenvolver &lt;a href=&#34;https://henriquechav.github.io/projetos&#34;&gt;projetos&lt;/a&gt; que resolvam problemas reais.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;currículo-&#34;&gt;Currículo 📄&lt;/h2&gt;
+&lt;iframe src=&#34;https://henriquechav.github.io/HenriqueChavesLopesCV.pdf&#34; width=&#34;100%&#34; height=&#34;600px&#34; style=&#34;border:none;&#34;&gt;&lt;/iframe&gt;</description>
+    </item>
+  </channel>
+</rss>
